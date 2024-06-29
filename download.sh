@@ -11,7 +11,6 @@ while read line; do
 	do	
 		new_name=${count}_${file}
 		mv "$file" /mnt/d/Rochana/RH442/$new_name
-		#mv "$new_name" /mnt/d/Rochana/RH442/
 		sleep 5
 	done
 	let count=count+1
